@@ -1,0 +1,17 @@
+{
+  "theta_deg": 29.999973,
+  "M": 0.03,
+  "X": 54.999998,
+  "normal_mae": 3e-06,
+  "normal_rmse": 3e-06,
+  "l1_mean": 0.000172,
+  "l1_total": 0.137275,
+  "desmos": "(t*cos(0.5235983032)-exp(0.0299999969*abs(t))*sin(0.3*t)*sin(0.5235983032)+54.9999982128,42+t*sin(0.5235983032)+exp(0.0299999969*abs(t))*sin(0.3*t)*cos(0.5235983032))",
+  "latex": "\\left(t\\cos(0.5235983032)-e^{0.0299999969\\left|t\\right|}\\sin(0.3t)\\sin(0.5235983032)+54.9999982128,42+t\\sin(0.5235983032)+e^{0.0299999969\\left|t\\right|}\\sin(0.3t)\\cos(0.5235983032)\\right)",
+  "plots": {
+    "fit": "plots\\01_points_and_fit.png",
+    "residuals_vs_t": "plots\\02_residuals_vs_t.png",
+    "expected_vs_pred": "plots\\03_expected_vs_pred.png",
+    "residual_hist": "plots\\04_residual_hist.png"
+  }
+}
